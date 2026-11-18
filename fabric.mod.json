@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsevisuals",
+  "version": "${version}",
+  "name": "PulseVisuals",
+  "description": "Отображает пинг и FPS в HUD.",
+  "authors": ["PulseVisuals"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.pulsevisuals.PulseVisualsMod" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
